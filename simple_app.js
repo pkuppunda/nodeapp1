@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
+const port = process.env.VCAP_APP_PORT || 5000
 
 app.get('/', function (req, res) {
   res.send('!!!Hello Pradeep Kumar!!!');
 });
-app.listen(3000, function () {
-  console.log('Web App listening on port 3000');
+app.listen(port, function () {
+  console.log('Web App listening on port ${port}');
 });

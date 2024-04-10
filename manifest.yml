@@ -1,0 +1,7 @@
+---
+applications:
+- name: pk_simple_webapp
+  host: pk_app1
+  memory: 128MB
+  buildpack: nodejs_buildpack
+  command: node simple_app
