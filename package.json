@@ -1,0 +1,22 @@
+{
+  "name": "nodeapp1",
+  "version": "1.0.0",
+  "description": "nodeapp1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkuppunda/nodeapp1.git"
+  },
+  "keywords": [
+    "nodeapp1"
+  ],
+  "author": "Pradeep Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkuppunda/nodeapp1/issues"
+  },
+  "homepage": "https://github.com/pkuppunda/nodeapp1#readme"
+}
